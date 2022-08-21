@@ -5,8 +5,8 @@
   "author": "Miguel Ávila",
   "license": "ISC",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html assets/icons/**/*.png",
+    "build": "parcel build index.html assets/icons/**/*.png"
   },
   "devDependencies": {
     "parcel": "^2.7.0"
